@@ -21,6 +21,9 @@ CLASS zcarenas_modifica_arte_002 IMPLEMENTATION.
         UPDATE zcarenas_tab_art set descripcion2 = 'ejemplo1'
         where id_art = 1.
 
+        UPDATE zcarenas_tab_art set descripcion2 = 'detalle producto 2'
+        where id_art = 2.
+
         IF sy-subrc = 0.
            out->write( 'modificacion exitosa' ).
            COMMIT WORK.
