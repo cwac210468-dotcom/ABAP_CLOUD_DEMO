@@ -1,0 +1,4 @@
+@EndUserText.label: 'SERVICE DEFINITIO ART'
+define service ZCARENA_SD_01 {
+  expose ZCARENAS_CDS_ART_V01;
+}
